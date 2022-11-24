@@ -20,12 +20,12 @@ class TestFibonacci(unittest.TestCase):
     # wrong test case
     def test_fib1(self):
         result = Fibonacci(9)
-        self.assertEqual(result, 54)
+        self.assertEqual(result, 1)
     
     # wrong test case
     def test_fib1(self):
         result = Fibonacci(10)
-        self.assertEqual(result, 88)
+        self.assertEqual(result, 2)
         
         
 if __name__ == '__main__':
